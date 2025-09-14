@@ -20,7 +20,6 @@ cond do
 
   symbol === "/" and y == 0 ->
     IO.puts("error -> infinity");
-    System.halt(0);
 
   true - > IO.puts("invalid operation")
 end;
